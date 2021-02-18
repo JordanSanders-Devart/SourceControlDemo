@@ -10,7 +10,12 @@
   [Zip] [varchar](5) NULL,
   [Skype] [varchar](255) NULL,
   [TwitterID] [varchar](50) NULL,
+  [CountryID] [int] NULL,
   PRIMARY KEY CLUSTERED ([CustomerId])
 )
 ON [PRIMARY]
+GO
+
+ALTER TABLE [Sales].[Customer]
+  ADD CONSTRAINT [FK_Customer_Country] FOREIGN KEY ([CountryID]) REFERENCES [Sales].[Country] ([CountryID])
 GO
