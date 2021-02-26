@@ -9,6 +9,7 @@
   [State] [varchar](25) NULL,
   [Zip] [varchar](5) NULL,
   [Skype] [varbinary](255) NULL,
+  [Twiter] [nchar](50) NULL,
   PRIMARY KEY CLUSTERED ([CustomerId])
 )
 ON [PRIMARY]
