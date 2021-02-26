@@ -10,6 +10,7 @@
   [Zip] [varchar](5) NULL,
   [Skype] [varbinary](50) NULL,
   [some_column] [nchar](10) NULL,
+  [TwitterID] [nchar](10) NULL,
   PRIMARY KEY CLUSTERED ([CustomerId])
 )
 ON [PRIMARY]
