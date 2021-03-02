@@ -1,6 +1,0 @@
-﻿SET IDENTITY_INSERT Production.Brand ON
-GO
-
-GO
-SET IDENTITY_INSERT Production.Brand OFF
-GO
