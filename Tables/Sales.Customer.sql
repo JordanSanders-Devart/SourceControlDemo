@@ -8,7 +8,8 @@
   [City] [varchar](50) NULL,
   [State] [varchar](25) NULL,
   [Zip] [varchar](5) NULL,
-  [Skype] [varchar](255) NULL,
+  [Skype] [varchar](50) NULL,
+  [column1] [varchar](200) NULL,
   PRIMARY KEY CLUSTERED ([CustomerId])
 )
 ON [PRIMARY]
