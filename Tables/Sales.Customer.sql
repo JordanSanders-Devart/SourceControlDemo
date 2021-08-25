@@ -9,8 +9,7 @@
   [State] [varchar](25) NULL,
   [Zip] [varchar](5) NULL,
   [Skype] [varchar](255) NULL,
-  [some_column] [nchar](10) NULL,
-  [Facebook ID] [nchar](10) NULL,
+  [TwitterID] [varchar](50) NULL,
   PRIMARY KEY CLUSTERED ([CustomerId])
 )
 ON [PRIMARY]
