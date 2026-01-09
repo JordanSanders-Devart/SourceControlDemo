@@ -8,7 +8,9 @@ INSERT Production.Brand(BrandId, BrandName) VALUES (5, 'Ritchey');
 INSERT Production.Brand(BrandId, BrandName) VALUES (6, 'Strider');
 INSERT Production.Brand(BrandId, BrandName) VALUES (7, 'Sun Bicycles');
 INSERT Production.Brand(BrandId, BrandName) VALUES (8, 'Surly');
-INSERT Production.Brand(BrandId, BrandName) VALUES (9, 'Trek');
+INSERT Production.Brand(BrandId, BrandName) VALUES (9, 'Spark');
+
+INSERT Production.Brand(BrandId, BrandName) VALUES (10, 'Winner');
 GO
 SET IDENTITY_INSERT Production.Brand OFF
 GO
